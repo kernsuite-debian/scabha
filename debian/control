@@ -1,0 +1,17 @@
+Source: scabha
+Section: python
+Priority: optional
+Maintainer: KERN packaging <packaging@kernsuite.info>
+Build-Depends: debhelper (>=9),
+               dh-python,
+               python-all,
+               python-setuptools,
+Standards-Version: 4.4.1
+Homepage: https://github.com/ratt-ru/scabha
+X-Python-Version: >= 2.7
+
+Package: scabha
+Architecture: any
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}, ${python:Depends}, future-fstring
+Description: Onboard services for passengers of Stimela cabs
