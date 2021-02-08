@@ -2,15 +2,12 @@ Source: scabha
 Section: python
 Priority: optional
 Maintainer: KERN packaging <packaging@kernsuite.info>
-Build-Depends: debhelper (>=9),
+Build-Depends: debhelper (>=10),
                dh-python,
-               python-all,
                python3-all,
-               python-setuptools,
                python3-setuptools,
-Standards-Version: 4.4.1
+Standards-Version: 4.5.0
 Homepage: https://github.com/ratt-ru/scabha
-X-Python-Version: >= 2.7
 X-Python3-Version: >= 3.6
 
 Package: python3-scabha
@@ -19,14 +16,8 @@ Multi-Arch: foreign
 Depends: ${misc:Depends}, ${shlibs:Depends}, ${python3:Depends}, python3-future-fstrings, python3-yaml
 Description: Onboard services for passengers of Stimela cabs
 
-Package: python-scabha
-Architecture: any
-Multi-Arch: foreign
-Depends: ${misc:Depends}, ${shlibs:Depends}, ${python:Depends}, python-future-fstrings, python-yaml
-Description: Onboard services for passengers of Stimela cabs
-
 Package: scabha
 Architecture: any
 Multi-Arch: foreign
-Depends: ${misc:Depends}, ${shlibs:Depends}, python-scabha
+Depends: ${misc:Depends}, ${shlibs:Depends}, python3-scabha
 Description: Onboard services for passengers of Stimela cabs
