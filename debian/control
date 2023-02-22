@@ -2,13 +2,13 @@ Source: scabha
 Section: python
 Priority: optional
 Maintainer: KERN packaging <packaging@kernsuite.info>
-Build-Depends: debhelper (>=10),
+Build-Depends: debhelper (>=11),
                dh-python,
                python3-all,
                python3-setuptools,
-Standards-Version: 4.5.0
+Standards-Version: 4.6.1
 Homepage: https://github.com/ratt-ru/scabha
-X-Python3-Version: >= 3.6
+X-Python3-Version: >= 3.8
 
 Package: python3-scabha
 Architecture: any
