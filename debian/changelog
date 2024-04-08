@@ -1,3 +1,10 @@
+scabha (0.3.2-1kern2) jammy; urgency=medium
+
+  [ Athanaseus Javas Ramaila ]
+  * Build for jammy
+
+ -- KERN packaging <packaging@kernsuite.info>  Mon, 08 Apr 2024 16:41:18 +0000
+
 scabha (0.3.2-1kern1) focal; urgency=medium
 
   [ Athanaseus Javas Ramaila ]
